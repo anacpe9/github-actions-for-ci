@@ -12,6 +12,7 @@ on:
 jobs:
   build:
 
+    os: [ubuntu-latest, windows-2016]
     runs-on: ubuntu-latest
 
     strategy:
